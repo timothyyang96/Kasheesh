@@ -26,16 +26,14 @@ cd Kasheesh
 
 **Create a virtual environment (optional)**: This is a good practice to isolate your project and its dependencies from other Python projects. You can use the `venv` module that comes with Python 3. Here's how to create and activate a virtual environment:
 
-   ```
-   bashCopy code
+   ```bash
    python3 -m venv myenv
    source myenv/bin/activate
    ```
    
 **Install dependencies**: If you have a `requirements.txt` file in your project, you can install all the dependencies with one command:
 
-   ```
-   bashCopy code
+   ```bash
    pip install -r requirements.txt
    ```
 
